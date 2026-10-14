@@ -14,6 +14,6 @@ Run ./healthcheck.sh on any Linux machine (tested on Ubuntu in WSL2).
 - PRs 4 and 5: a change broke the script, so I rolled it back with GitHub's Revert button rather than rewriting history.
 
 ## What I learned
-- 
-- 
-- 
+- Every change reaches main through a pull request, so it's reviewed and easy to trace.
+- Conflicts get resolved on the feature branch, not on main; Git marks both versions and I choose the result.
+- Revert, not reset, is the safe way to undo something that's already been merged and pushed.## What I learned
