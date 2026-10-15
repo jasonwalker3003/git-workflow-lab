@@ -16,4 +16,4 @@ Run ./healthcheck.sh on any Linux machine (tested on Ubuntu in WSL2).
 ## What I learned
 - Every change reaches main through a pull request, so it's reviewed and easy to trace.
 - Conflicts get resolved on the feature branch, not on main; Git marks both versions and I choose the result.
-- Revert, not reset, is the safe way to undo something that's already been merged and pushed.## What I learned
+- Revert, not reset, is the safe way to undo something that's already been merged and pushed.
